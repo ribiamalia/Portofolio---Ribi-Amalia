@@ -1,0 +1,91 @@
+.navbar-custom {
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.navbar-scrolled {
+  background-color: rgb(254, 253, 253); /* Ubah sesuai warna yang diinginkan */
+  transition: background-color 0.5s;
+}
+
+.navbar-custom .nav-link.active {
+  border-bottom: 2px solid black; /* Ubah warna dan ketebalan sesuai kebutuhan */
+}
+
+.navigasi {
+  font-weight: 700;
+  gap: 2%;
+  color: gray;
+}
+
+.navbar-toggler {
+  color: white;
+}
+.navbar-toggler-icon{
+  color: white;
+  
+}
+
+/* Pastikan Anda mengimpor CSS ini di komponen Anda */
+.navbar-custom {
+  background-color: transparent;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 0.8rem 1rem;
+}
+
+.navbar-custom.navbar-scrolled {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas {
+  max-width: 70%;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: #343a40;
+  margin-left: 7%;
+}
+
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+.navigasi .nav-link {
+  color: #343a40;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.navigasi .nav-link:hover {
+  color: #007bff;
+}
+
+.navigasi .nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+/* .offcanvas-header {
+  border-bottom: 1px solid #e9ecef;
+} */
+
+.offcanvas-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.offcanvas-body .nav-link {
+  color: #343a40;
+  font-weight: 700;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #007bff;
+}
+
+.offcanvas-body .nav-link.active {
+  color: #007bff;
+}

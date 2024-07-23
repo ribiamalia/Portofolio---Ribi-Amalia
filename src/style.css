@@ -1,0 +1,347 @@
+
+*{
+ font-family: 'Poppins', sans-serif;
+}
+
+.body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+  background: rgba(13, 109, 253, 0.412);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-header {
+  margin-top: 200px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.text1, .text2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button .d-flex {
+  background-color: white;
+  color: #0d6efd;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button .d-flex:hover {
+  background-color: #6610f2;
+  color: white;
+}
+
+.img {
+  text-align: center;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #0d6efd;
+  margin-top: 150px;
+  transition: transform 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column-reverse;
+    margin-left: 2%;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .text-header {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 35px;
+  }
+
+  .text1, .text2 {
+    font-size: 20px;
+  }
+
+  .button {
+    justify-content: center;
+  }
+}
+.bar1 {
+  font-weight: 700;
+}
+
+
+
+.Sertif {
+ 
+
+}
+
+.wrapper {
+  height: 10px;
+
+}
+.saya{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container {
+  background-color: white;
+  
+}
+.header{
+  display: flex;
+}
+
+.header .img img {
+   width: 300px; height: 300px; border: 5px solid #0d6efd; margin-top: 150px; margin-left:10%
+}
+
+.smartlearn img {
+  width: 300px; height: 300px; 
+}
+
+.smartlearn .laptop {
+  margin-right:-50px
+}
+
+.text-header{
+  margin-top: 200px;
+}
+.skil i {
+  width: 100px;
+  font-size: 75px;
+}
+
+.soft .head {
+  font-weight: 1000; margin: 0 7%;
+}
+
+.hard .isi {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.Sertif .sertif {
+  width: 18rem;  border-radius: 15px;
+}
+
+.tentang .satu {
+  width: 50%;
+}
+
+.kontak,
+.lokasi {
+  width: 35%;
+}
+
+.nama {
+  width:30%; }
+.nama h3 {
+   font-size:25px; font-weight:1000;
+ 
+}
+
+.footer {
+  padding-left:7%; gap:5%
+}
+
+.text {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.isi .bar {
+  width: 50%;
+}
+
+.navbar-custom .nav-link.active {
+  border-bottom: 2px solid blue;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: blue;
+}
+
+.text4 {
+  font-size: 20px;
+}
+
+.tanggal {
+  line-height: -0px; font-size: 15px; font-weight: 1000; opacity: 0.5 
+  
+}
+
+.pc {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+
+}
+@media(max-width:800px) {
+  .isi .bar {
+    width: 100%;
+  }
+
+ 
+
+  .tanggal {
+    font-size: 12px;
+  }
+
+  .text4 {
+    font-size: 15px;
+  }
+
+.text {
+  font-size: 35px;
+}
+
+.text1, .text2 {
+  font-size: 20px;
+}
+  .nama h3 {
+    font-size:17px; font-weight:1000;
+    width: 100%;
+    text-align: center;
+  }
+  .nama {
+    width:100%;
+  }
+  .footer {
+    padding-left:0%; gap:0%
+  }
+
+  .kontak,
+.lokasi {
+  width: 100%;
+  text-align: center;
+}
+  .kontak p,
+.lokasi p {
+ font-size: 15px;
+}
+
+  .sertif{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+  }
+
+  .tentang .satu {
+    width: 100%;
+  }
+
+  .Sertif .box {
+    align-items: center;
+  }
+
+  .Sertif .sertif {
+    width: 15rem;  border-radius: 15px;
+  }
+
+  .hard .isi {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .pc {
+    width: 200px;
+    display: flex;    justify-content: center;
+  }
+
+  .soft .head {
+    font-weight: 1000; margin: 0 2%;
+    
+  }
+
+  .skil i {
+    width: 7px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+  }
+
+  .tentang h4{
+    font-size: 15px;
+  } 
+  .tentang .animation,
+  .tentang tr {
+    font-size: 12px;
+  }
+
+
+
+  .header{
+    margin-left: 2%;
+    flex-direction: column-reverse;
+  }
+
+  .header .img img {
+    width: 200px;
+    height: 200px;
+    margin-left: 0%;
+  }
+
+  .saya {
+  }
+
+  .text-header{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .smartlearn img {
+    width: 125px; height: 125px; 
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 8%;
+  }
+
+  iframe {
+    width: 200px;
+  }
+   
+  .header .button {
+    justify-content: center;
+  }
+}
